@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Social Media Icons */}
         <div className="flex gap-5 text-xl">
           <a
-            href="https://github.com/jayantpaithane"
+            href="https://github.com/jayantp2901"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-600 dark:hover:text-white transition"
@@ -21,7 +21,7 @@ export default function Footer() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/jayantpaithane"
+            href="https://www.linkedin.com/in/jayant-paithane-38059b281/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-white transition"
@@ -35,7 +35,7 @@ export default function Footer() {
             <FaEnvelope />
           </a>
           <a
-            href="https://instagram.com/yourprofile"
+            href="https://www.instagram.com/jayant_paithane/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-500 dark:hover:text-white transition"

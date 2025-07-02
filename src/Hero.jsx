@@ -24,7 +24,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/jayant-paithane/"
+            href="https://www.linkedin.com/in/jayant-paithane-38059b281/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-full font-semibold text-white transition flex items-center gap-2"
@@ -33,7 +33,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/Jayant_Resume.pdf"
+            href="/Jayant_Paithane_8767749157.pdf"
             download
             className="bg-gray-700 hover:bg-gray-800 px-6 py-2 rounded-full font-semibold text-white transition flex items-center gap-2"
           >
