@@ -12,15 +12,15 @@ export default function About() {
         className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10"
       >
         {/* Left Side - Profile & Degree */}
-        <div className="flex-1 text-center md:text-left">
+        {/* <div className="flex-1 text-center md:text-left">
           <h2 className="text-4xl font-bold text-blue-900 dark:text-white mb-4">👋 About Me</h2>
 
           <p className="md:hidden text-gray-700 dark:text-gray-300 text-base mt-6 bg-blue-50 dark:bg-gray-800 p-4 rounded-lg shadow-sm">
-            👋 Hi, I'm Jayant — a MERN stack developer with strong project experience, currently pursuing my B.E. in Computer Engineering. I build responsive, real-world apps with clean code and creative problem solving.
+            👋 Hi, I'm Jayant — a MERN stack developer with strong project experience. I build responsive, real-world apps with clean code and creative problem solving.
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-4">
-            Currently pursuing my B.E. in Computer Engineering from <span className="font-semibold">Dhole Patil College of Engineering, Pune</span>, I have honed both my technical skills and collaborative mindset through hands-on project development, including a dynamic job portal with resume parsing, referral systems, and chatbot integration.
+            I have completed my B.E. in Computer Engineering from <span className="font-semibold">Dhole Patil College of Engineering, Pune</span>. I have honed both my technical skills and collaborative mindset through hands-on project development, including a dynamic job portal with resume parsing, referral systems, and chatbot integration.
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-4">
@@ -30,7 +30,33 @@ export default function About() {
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             Beyond code, I value continuous learning, collaboration, and adaptability — essential qualities in today’s ever-evolving tech landscape. My goal is simple: to build meaningful products and become a developer who never stops growing.
           </p>
-        </div>
+        </div> */}
+
+        <div className="flex-1 text-center md:text-left">
+  <h2 className="text-4xl font-bold text-blue-900 dark:text-white mb-4">👋 About Me</h2>
+
+  <p className="md:hidden text-gray-700 dark:text-gray-300 text-base mt-6 bg-blue-50 dark:bg-gray-800 p-4 rounded-lg shadow-sm">
+    👋 Hi, I'm Jayant — a MERN stack developer with strong project experience. I build responsive, real-world apps with clean code and creative problem solving.
+  </p>
+
+  <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-4">
+    I have completed my B.E. in Computer Engineering from <span className="font-semibold">Dhole Patil College of Engineering, Pune</span>. I'm also a certified <span className="font-semibold text-blue-700 dark:text-blue-400">Full Stack Web Developer</span> through <span className="font-semibold text-blue-700 dark:text-blue-400">AlmaBetter</span> in collaboration with <span className="font-semibold text-blue-700 dark:text-blue-400">IIT Guwahati</span> 🏅 — where I sharpened my skills across the MERN stack through rigorous hands-on training.
+  </p>
+
+  <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-4">
+    I'm not just passionate about writing clean and maintainable code — I’m driven by the impact it can create. Whether it's developing responsive frontends with <span className="font-semibold">React</span>, managing state with <span className="font-semibold">Redux</span>, or designing RESTful APIs with <span className="font-semibold">Node.js & Express</span>, I enjoy solving problems that matter.
+  </p>
+
+  <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+    Beyond code, I value continuous learning, collaboration, and adaptability — essential qualities in today’s ever-evolving tech landscape. My goal is simple: to build meaningful products and become a developer who never stops growing.
+  </p>
+
+  {/* 🎓 Certificate Badge */}
+  <a href="#certificates"><div className="mt-6 inline-block bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-100 px-4 py-2 rounded-full text-sm font-medium shadow-md hover:scale-105 transition-transform duration-300">
+    🎓 Certified Full Stack Web Developer – AlmaBetter x IIT Guwahati
+  </div></a>
+</div>
+
 
         {/* Right Side - Skills Cloud */}
         <div className="flex-1">
